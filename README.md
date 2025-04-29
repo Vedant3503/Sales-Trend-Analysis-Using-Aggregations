@@ -1,12 +1,17 @@
 📊 Task 6: Sales Trend Analysis Using Aggregations
 
+
 🎯 Objective
 Analyze monthly revenue and order volume from the online_sales dataset using SQL aggregation techniques.
 
+
 🧰 Tools Used
+
 SQL (Tested on: PostgreSQL, MySQL, and SQLite)
 
+
 📂 Dataset
+
 Table: orders
 
 Relevant Columns:
@@ -21,6 +26,7 @@ order_id – the unique ID for each order
 
 
 📜 Task Description
+
 Write SQL queries to analyze:
 
 Total monthly revenue (sum of amount)
@@ -29,6 +35,7 @@ Total order volume (distinct count of order_id)
 
 
 🧠 SQL Techniques Used
+
 EXTRACT(MONTH FROM order_date) to get the month
 
 EXTRACT(YEAR FROM order_date) to get the year
@@ -45,6 +52,7 @@ LIMIT to focus on specific time periods (e.g., top months)
 
 
 ✅ Outcome
+
 You will learn how to:
 
 Aggregate data over time using SQL
@@ -63,6 +71,7 @@ Year	Month	Total Revenue	Total Orders
 
 
 📁 Files Included
+
 sales_trend_analysis.sql: SQL script to perform the analysis
 
 sales_trend_results.csv: Sample results table (optional export)
