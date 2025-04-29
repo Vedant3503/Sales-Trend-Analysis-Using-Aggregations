@@ -72,6 +72,6 @@ Year	Month	Total Revenue	Total Orders
 
 📁 Files Included
 
-sales_trend_analysis.sql: SQL script to perform the analysis
+online_retail_orders.sql: SQL script to perform the analysis
 
-sales_trend_results.csv: Sample results table (optional export)
+orders.csv: Sample results table (optional export)
